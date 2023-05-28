@@ -1,0 +1,8 @@
+query: https://btc-trade.com.ua/api/ticker/btc_uah
+filepath: emails
+batchsize: 500
+emailFrom: example@test.com
+emailSubject: BTC to UAH rate
+emailTextBody: "BTC to UAH rate is %f"
+emailHtmlBody: "<html><body>BTC to UAH rate is <strong>%f</strong></body></html>"
+emailMessageStream: broadcasts
